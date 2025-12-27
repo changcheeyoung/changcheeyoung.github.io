@@ -1,0 +1,63 @@
+# Basic site settings
+title: "Chang Chee Young | AI & ML Developer"
+name: "Chang Chee Young"
+description: "AI/ML Developer & Technical Project Manager | AWS, Python, TensorFlow & Streamlit"
+url: "https://changcheeyoung.github.io"
+baseurl: ""  # keep this empty for username.github.io sites
+repository: "changcheeyoung/changcheeyoung.github.io"
+
+# Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"   # try: "air", "mint", "dark", "neon", "plum" etc.
+
+# Locale / misc
+locale: "en-SG"
+markdown: kramdown
+
+# Plugins (GitHub Pages supports these)
+plugins:
+  - jekyll-include-cache
+
+# Author profile (shows in sidebar when author_profile: true)
+author:
+  name: "Chang Chee Young"
+  bio: "AI/ML Developer & Technical Project Manager building practical ML apps with Python, TensorFlow, Streamlit and AWS."
+  location: "Singapore"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:cheeyoung.chang@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://sg.linkedin.com/in/mikecchang"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/LEMSingapore"
+
+# Navigation (top menu)
+# We'll add matching pages in the next steps
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: "main"
+
+# Define the navigation menu
+nav:
+  main:
+    - title: "Home"
+      url: /
+    - title: "Projects"
+      url: /projects/
+    - title: "Resume"
+      url: /resume/
+    - title: "Contact"
+      url: /contact/
