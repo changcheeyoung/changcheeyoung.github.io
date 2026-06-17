@@ -13,12 +13,3 @@ Here are some of the AI/ML projects I’ve built:
 - Uses structured HDB data and regression models
 - Deployed on Streamlit Cloud  
 [Launch app](https://hdbresaleprice-mfxs9rzgwebxfspitfuhcm.streamlit.app/)
-
----
-
-## CNN Sentiment Analysis (Streamlit)
-
-- CNN-based sentiment classifier using TensorFlow/Keras
-- Simple UI for text input and sentiment prediction
-- Deployed as a Streamlit app  
-[Launch app](https://sentiment-cnn-app-db3dxajbdywfrv3iykzpqg.streamlit.app/)
